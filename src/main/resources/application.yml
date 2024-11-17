@@ -7,11 +7,7 @@ spring:
     # username and password properties will be injected by the vault
     #    username: test
     #    password: test
-    hibernate:
-      hbm2ddl:
-        auto: create
     jpa:
-      show-sql: true
       hibernate:
         ddl-auto: none
   config:

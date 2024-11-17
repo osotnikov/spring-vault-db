@@ -1,9 +1,6 @@
 #!/bin/bash
-
 set -e
-
 export VAULT_ADDR=http://vault:8201
-
 # give some time for Vault to start and be ready since it doesn't support a healthcheck and docker-compose can't rely on it
 sleep 6
 
